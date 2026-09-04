@@ -1,0 +1,3 @@
+<button matIconButton [class]="isInWishlist() ? 'text-red-500!' : 'text-gray-400!'" (click)="toggleWhisList(product())">
+    <mat-icon>{{isInWishlist() ? 'favorite' : 'favorite_border'}}</mat-icon>
+</button>
